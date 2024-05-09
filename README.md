@@ -1,14 +1,9 @@
 <h1 align="center">Satellite Imagery Road Extraction Project</h1>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/54114888/126111452-2023cf52-d7bb-4eab-aab4-42f4d583e3f5.png" width="" height="">
-</p>
-
 ## 📜 Description:
 Developed a Software for semantic segmentation of remote sensing imagery using Fully Convolutional Networks (FCNs).
 Initially, this software developed for extracting the road network from high-resolution remote sensing imagery. 
 And now, this software can be used to extract various features (Semantic segmentation of remote sensing imagery). This project can also extract from Vector Data. 
-This is part of my Internship at ISRO (Indian SPace Research Organization)'s NRSC (National Remote Sensing Centre) campus.
 
 ### Tested on:
 ```
@@ -21,7 +16,7 @@ scikit-learn 0.23.2
 ### Installation
 #### Clone repository
 ```commandline
-git clone https://github.com/Akash-Ramjyothi/Satellite-Imagery-Road-Extraction.git
+git clone ...
 cd Satellite-Imagery-Road-Extraction
 ```
 #### Setup environment
@@ -187,29 +182,6 @@ python summary.py --model unet_mini --input_shape 256 256 3 --num_classes 3
 </p>
 
 ![vegas_speed](https://user-images.githubusercontent.com/54114888/126113043-97e39701-7aaf-47d3-ab53-e6f44f8e682c.jpg)
-
-## 💥 How to Contribute?
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) 
-
-- Take a look at the Existing [Issues](https://github.com/Akash-Ramjyothi/Razorpay-Payment/issues) or create your own Issues!
-- Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
-- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-- Add Screenshots to help me know what this Code is all about.
-
-## 👦 Developed By:
-<h2 align="center">Akash Ramjyothi</h2>
-<p align="center">
-  <a href="https://github.com/Akash-Ramjyothi"><img src="https://avatars.githubusercontent.com/u/54114888?v=4" width=150px height=150px /></a> 
-    
-<p align="center">
-  <a target="_blank"href="https://www.linkedin.com/in/akash-ramjyothi/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:akash.ramjyothi@gmail.com?subject=Hello%20Akash,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.instagram.com/akash.ramjyothi/"><img src="https://img.shields.io/badge/instagram-%23D14836.svg?&style=for-the-badge&logo=instagram&logoColor=pink" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  ☎️ PH:+91 8939928002.
-</p>
 
 ## 🌐 References Used:
 - https://www.sciencedirect.com/science/article/pii/S2212017316302705
